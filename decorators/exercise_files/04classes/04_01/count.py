@@ -1,0 +1,9 @@
+def fib(n):
+    """ return the Fibonacci sequence """
+    if n < 2:
+        return n
+    else:
+        return fib(n - 1) + fib(n - 2)
+
+
+fib(10)
